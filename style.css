@@ -1,0 +1,103 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+        "firstGridOne firstGridTwo"
+        /* "write" */
+    ;
+    grid-template-columns: 200px auto;
+    margin-top: 25px;
+    gap: 20px;
+    width: 1000px;
+    height: 700px;
+    background-color:aliceblue;
+    /* border: 1px solid green; */
+}
+
+.create{
+    background-color: hsl(31, 66%, 93%);
+    padding: 70px 0px 20px 30px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.create img{
+    width: 130px;
+}
+
+.write{
+    background-color: hsl(39, 100%, 71%);
+    padding: 30px 0px 30px 20px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.write img{
+    width: 170px;
+    margin-top: 20px;
+}
+
+/* FirstGridTwo */
+
+.firstGridTwo{
+    display: grid;
+    grid-template-areas: 
+    "secondGridOne"
+    "secondGridTwo"
+    ;
+    grid-template-rows: 470px auto;
+    gap: 20px;
+}
+
+.secondGridOne{
+    background-color: aquamarine;
+}
+
+.secondGridTwo{
+    display: grid;
+    grid-template-areas: 
+    "thirdGridOne thirdGridTwo"
+    ;
+    grid-template-columns: 240px auto;
+    gap: 20px;
+}
+
+.thirdGridOne{
+    padding: 10px 0px 0px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.thirdGridOne span{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.thirdGridOne img{
+    margin-top: 10px;
+    width: 150px;
+}
+
+.thirdGridTwo{
+    background-color: hsl(256, 67%, 59%);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.thirdGridTwo p{
+    padding: 40px 20px 0px 70px;
+    line-height: 25px;
+}
+
+.thirdGridTwo img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
