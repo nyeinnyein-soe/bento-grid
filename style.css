@@ -5,21 +5,28 @@
         /* "write" */
     ;
     grid-template-columns: 200px auto;
-    margin-top: 25px;
+    margin-top: 15px;
     gap: 20px;
-    width: 1000px;
-    height: 700px;
+    width: 930px;
+    height: 730px;
     background-color:aliceblue;
     /* border: 1px solid green; */
 }
 
+.firstGridOne{
+    height: 730px;
+    /* border: 1px solid hotpink; */
+
+}
+
 .create{
     background-color: hsl(31, 66%, 93%);
-    padding: 70px 0px 20px 30px;
+    padding: 80px 0px 20px 30px;
     font-size: 28px;
     font-weight: 500;
     line-height: 25px;
     margin-bottom: 20px;
+    height: 365px;
 }
 
 .create img{
@@ -47,12 +54,8 @@
     "secondGridOne"
     "secondGridTwo"
     ;
-    grid-template-rows: 470px auto;
+    grid-template-rows: 480px auto;
     gap: 20px;
-}
-
-.secondGridOne{
-    background-color: aquamarine;
 }
 
 .secondGridTwo{
@@ -60,7 +63,7 @@
     grid-template-areas: 
     "thirdGridOne thirdGridTwo"
     ;
-    grid-template-columns: 240px auto;
+    grid-template-columns: 230px auto;
     gap: 20px;
 }
 
@@ -84,7 +87,7 @@
 
 .thirdGridTwo{
     background-color: hsl(256, 67%, 59%);
-    padding: 20px;
+    padding: 40px 20px 0px 20px;
     color: white;
     font-size: 30px;
     font-weight: 500;
@@ -92,12 +95,159 @@
 }
 
 .thirdGridTwo p{
-    padding: 40px 20px 0px 70px;
+    padding: 40px 20px 0px 50px;
     line-height: 25px;
 }
 
 .thirdGridTwo img{
-    width: 200px;
+    width: 180px;
     float: left;
-    margin-right: 20px;
+}
+
+/* Fourth Grid Two */
+
+.secondGridOne{
+    display: grid;
+    grid-template-areas: 
+        "fourthGridOne fourthGridTwo"
+    ;
+    grid-template-columns: 460px auto;
+    /* border: 1px solid green; */
+}
+
+.fourthGridTwo{
+    background-color: hsl(254, 88%, 90%);
+    padding: 20px 0px 0px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 480px;
+}
+
+.fourthGridTwo p:first-child{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.fourthGridTwo p:last-child{
+
+    font-size: 16px;
+    line-height: 15px;
+    padding-right: 35px;
+}
+
+.fourthGridTwo .crop-box {
+  width: 210px;
+  height: 260px;
+  padding-left: 0;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.fourthGridTwo .crop-box img {
+  position: absolute;
+  width: 160%;
+  height: 105%;
+}
+
+.fourthGridOne{
+    display: grid;
+    grid-template-areas: 
+        "fifthGridOne"
+        "fifthGridTwo"
+    ;
+    grid-template-rows: 230px auto;
+    gap: 20px;
+}
+
+.fifthGridOne{
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    text-align: center;
+    padding: 45px;
+    border-radius: 5px;
+}
+
+.fifthGridOne p:first-child{
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.fifthGridOne p:last-child{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.fifthGridOne img{
+    width: 180px;
+    margin-top: 10px;
+}
+
+.fifthGridTwo{
+    display: grid;
+    grid-template-areas: 
+        "manage"
+        "maintain"
+    ;
+    grid-template-columns: 230px auto;
+    grid-template-rows: 230px auto;
+    gap: 20px;
+}
+
+.manage{
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.manage .social-img {
+  width: 208px;
+  height: 200px;
+  padding-left: 0;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.manage .social-img img {
+  position: absolute;
+  width: 140%;
+}
+
+.manage p{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 80px;
+}
+
+.maintain{
+    padding: 30px 20px 0px 20px;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 5px;
+}
+
+.maintain .maintain-img {
+  width: 170px;
+  height: 76px;
+  padding-left: 0;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.maintain .maintain-img img {
+  position: absolute;
+  width: 100%;
+  /* height: 90%; */
+}
+
+.maintain p{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 24px;
 }
